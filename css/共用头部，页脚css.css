@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.w {
+    width: 1140px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #f6f6f6;
+}
+
+/*共用top部分的实现*/
+.top {
+    height: 188px;
+}
+.top-banner .logo{
+    height: 125px;
+
+    line-height: 125px;
+    margin: 0 auto;
+}
+.top-banner .logop {
+    background-color: #040000;
+}
+.top-nav {
+    height: 56px;
+    background-color: #ffffff;
+    margin-top: -18px;
+}
+.top-nav ul {
+    float: left;
+}
+.top-nav li {
+    float: left;
+}
+.top-nav li a {
+    display: inline-block;
+    width: 124px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    color:#4e4e4e;
+}
+.top-nav li:hover a {
+    color:#fff;
+    background-color: #f8b62d;
+}
+.top-nav .seach {
+    width: 381px;
+    height: 56px;
+}
+.seach .sousuo {
+    height: 32px;
+    width: 33px;
+    margin-top: 12px;
+    line-height: 42px;
+    border-left: 1px solid #e5e5e5;
+}
+.seach .kuang {
+    height: 32px;
+    width: 218px;
+    margin-top: 12px;
+    border: none;
+}
+.seach .tougao {
+    width: 128px;
+    background-color: #f4b440;
+    height: 56px;
+}
+.seach .tougao a {
+    display: inline-block;
+    width: 128px;
+    height: 56px;
+    line-height: 56px;
+    color:#fff;
+    text-align: center;
+}
+
+
+
+/*页脚的实现*/
+.foot {
+    overflow: hidden;
+    height: 130px;
+    margin-top: 40px;
+}
+.foot .name {
+    width: 232px;
+    height: 68px;
+    background-image: url("../images/addr.png");
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+}
+.name p {
+    padding-left: 20px;
+    color: #9f9f9f;
+    font-size: 14px;
+    line-height: 24px;
+}
+.foot .waiter {
+    width: 222px;
+    height: 68px;
+    background: url(../images/email.png) no-repeat 18px 10px;
+}
+.waiter p,.waiter a {
+    display: inline-block;
+    color: #9f9f9f;
+    font-size: 14px;
+}
+.waiter p {
+    padding-left: 40px;
+    line-height: 24px;
+}
+.foot .phone {
+    width: 120px;
+    height: 68px;
+    background: url(../images/phone.png) no-repeat 0 10px;
+}
+.phone p {
+    color: #9f9f9f;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 20px;
+}
+.foot .num {
+    width: 352px;
+    height: 56px;
+    margin-left: 14px;
+    position: relative;
+    background: url(../images/布卡漫画球.png) no-repeat 0 8px;
+}
+.num .wen {
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.num p {
+    color: #9f9f9f;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 30px;
+}
+.foot .btfg {
+    width: 174px;
+    height: 124px;
+    margin-left: 20px;
+    position: relative;
+}
+.btfg .firstkuang {
+    border:5px solid #4a4947;
+    position: absolute;
+    top:16px;
+    left:50px;
+}
+.btfg .secondkuang{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    width: 108px;
+    height: 108px;
+    background-color: #4a4947;
+    border:1px solid  #4a4947;
+    border-radius: 10px;
+    padding-top: 6px;
+}
+.secondkuang p {
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+}

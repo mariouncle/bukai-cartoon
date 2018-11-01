@@ -1,0 +1,130 @@
+.allmid {
+    height: 840px;
+}
+.allmid .mid-left {
+    width: 246px;
+    height: 506px;
+    margin-right: 14px;
+}
+.mid-left .guanfang {
+    width: 246px;
+    height: 100px;
+    margin-top: 29px;
+    background-color: #fff;
+}
+.guanfang .tupian {
+    padding-top: 14px;
+    padding-left: 12px;
+}
+.guanfang .wenzi {
+    padding-top: 23px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.guanfang .wenzi p {
+    height: 24px;
+    line-height: 24px;
+    color: #8d8d8d;
+}
+.allmid .mid-right {
+    width: 880px;
+    height: 840px;
+    background-color: #fff;
+}
+.mid-right .mid-right-top{
+    height: 153px;
+    width: 862px;
+    border-bottom: 1px solid #848484;
+    padding-top: 24px;
+    padding-left: 18px;
+}
+.mid-right-top .fh {
+    width: 74px;
+    height: 17px;
+    float: left;
+    font-size: 13px;
+    text-align: center;
+    line-height: 17px;
+    border-left: 3px solid #f7b52c;
+}
+.mid-right-top li {
+    padding-right: 6px;
+}
+.mid-right-top span {
+    color: #f7b52c;
+}
+.mid-right-top .wenzi {
+    margin-top: 38px;
+}
+.mid-right-top .wenzi p {
+    color: #979797;
+    font-size: 13px;
+}
+.wenzi .jieshao {
+    text-indent: 4em;
+    line-height: 25px;
+    padding-top: 16px;
+}
+em {
+    font-style: normal;
+    color: #69bfe5;
+    font-size: 13px;
+}
+.mid-right-foot {
+    height: 662px;
+}
+.start {
+    height: 66px;
+}
+.start li a {
+    display: inline-block;
+    color: #f4b440;
+    width: 118px;
+    height: 48px;
+    border: 1px solid #f4b440;
+    border-radius:10px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.start li {
+    float: left;
+}
+.start li:hover a{
+    background-color: #f4b440;
+    color: #ffffff;
+}
+.mid-right-foot  p {
+    width: 76px;
+    height: 20px;
+    margin-top: 36px;
+    margin-left: 33px;
+    color: #808080;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+    border-left: 2px solid #f4b440;
+}
+.number {
+    height: 470px;
+    width: 850px;
+    margin-top: 10px;
+    margin-left: 27px;
+}
+.number li {
+    float: left;
+    width: 136px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+}
+.number li a {
+    display: inline-block;
+    font-size: 12px;
+    color: #999999;
+
+}
+
+

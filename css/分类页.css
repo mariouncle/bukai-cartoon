@@ -1,0 +1,74 @@
+
+/*中间部分的实现*/
+.allmid {
+    overflow: hidden;
+}
+.allmid .update {
+    width: 366px;
+    height: 350px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+.update .update-top{
+    height: 52px;
+    margin-left: 20px;
+}
+.update-top h4 {
+    float:left;
+    width: 76px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    margin-top: 20px;
+    font-size: 14px;
+    border-left: 3px solid #f8b62d;
+    font-weight: 400;
+}
+.update-top p {
+    float: right;
+    margin-right: 22px;
+    margin-top: 20px;
+}
+.update-top a {
+    display: inline-block;
+    color:black;
+    font-size: 12px;
+}
+.update .dongman {
+    width: 96px;
+    height: 260px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.dongman .first {
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+}
+.dongman .first a {
+    display: inline-block;
+    color: #000;
+}
+.dongman .second {
+    height: 28px;
+    line-height: 28px;
+    margin-top: 22px;
+    font-size: 12px;
+}
+.dongman .second a {
+    display: inline-block;
+    color: #a0a0a0;
+}
+.dongman .third {
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+}
+.dongman .third a {
+    display: inline-block;
+    color: #a0a0a0;
+}
+.allmid .upmid {
+    margin-left: 20px;
+    margin-right: 20px;
+}
